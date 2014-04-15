@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<!--Android robot hex color: #A4C639-->
+
+<head>
+<script src="jquery-2.1.0.js"></script>
+<style>
+div{
+  height    : 150px;
+}
+
+.torso{
+  height : 210px;
+  width  : 200px;
+  background :#A4C639;
+  border-top : 10px solid white;
+  border-radius: 0 0 10px 10px;
+  position: relative;
+  left :200px;
+  top  :-310px;
+}
+
+.brain{
+  background : radial-gradient(circle, white 15%, transparent 0%), #A4C639;
+  background : -webkit-radial-gradient(circle, white 15%, transparent 0%), #A4C639;
+  background : -moz-radial-gradient(circle, white 15%, transparent 0%), #A4C639;
+  background-size: 100px 100px;
+  height: 100px;
+  width: 200px;
+  border: 75px;
+  border-radius: 90px 90px 0 0; /* semi-circle of the head */
+  position: relative;
+  left :200px;
+}
+
+.hat{
+  height :0;
+  width: 0;
+  border-left:50px solid transparent;
+  border-right:50px solid transparent;
+  border-bottom: 100px solid #ADD8E6;
+  position: relative;
+  left: 250px;
+  top: 10px;
+  z-index: -1;
+}
+
+.left-hand{
+  height: 130px;
+  width: 40px;
+  background : #A4C639;
+  border-radius: 20px;
+  position: relative; 
+  top: -520px;
+  left: 150px;
+}
+
+.right-hand{
+  height: 130px;
+  width: 40px;
+  background : #A4C639;
+  border-radius: 20px; 
+  position: relative; 
+  top: -650px;
+  left: 410px;
+}
+
+.left-foot{
+  height: 100px;
+  width: 50px;
+  background : #A4C639;
+  border-radius: 20px;
+  position: relative;
+  top: -590px;
+  left: 230px;
+  z-index: -1; 
+}
+
+.right-foot{
+  height: 100px;
+  width: 50px;
+  background : #A4C639;
+  border-radius: 20px;
+  position: relative;
+  top: -690px;
+  left: 320px; 
+}
+
+.diagonal-left{
+  width: 30px;
+  border-top: 5px solid #A4C639;
+  position: relative;
+  top: -120px;
+  left: 170px;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.diagonal-right{
+  width: 30px;
+  border-top: 5px solid #A4C639;
+  position: relative;
+  top: -275px;
+  left: 400px;
+  -webkit-transform: rotate(315deg);
+  -moz-transform: rotate(315deg);
+  -o-transform: rotate(315deg);
+  -ms-transform: rotate(315deg);
+  transform: rotate(315deg);
+}
+
+.color
+{
+  color: white;
+  background :#428BCA;
+  border: 1px solid #1e728c;
+  padding: 8px 12px;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  border-radius: 7px;
+  position: relative;
+  left: 270px;
+}
+</style>
+</head>
+
+<body>
+
+<button class="color">Click Me!</button>
+<div class="hat"></div>
+<div class="brain"></div>
+<div class="diagonal-left"></div>
+<div class="diagonal-right"></div>
+<div class="torso"></div>
+<div class="left-hand"></div>
+<div class="right-hand"></div>
+<div class="left-foot"></div>
+<div class="right-foot"></div>
+
+
+<script>
+  // When color button is clicked...
+  $(".color").click(function() {
+  
+  // assign each named color a random number 0-255
+  var red = Math.floor(Math.random() * 255);
+  var green = Math.floor(Math.random() * 255);
+  var blue = Math.floor(Math.random() * 255);
+  var randomRGBA = 'rgba('+red+','+green+','+blue+',1)';
+  
+  //assign randomRGBA to background css property
+  $(".left-hand").css("background", randomRGBA);
+  $(".right-hand").css("background", randomRGBA); 
+  $(".torso").css("background", randomRGBA);
+  $(".left-foot").css("background", randomRGBA);
+  $(".right-foot").css("background", randomRGBA); 
+  
+  });
+</script>
+</body>
