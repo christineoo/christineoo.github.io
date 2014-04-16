@@ -12,8 +12,8 @@ comments: true
 share: true
 external: false
 ---
-# Good Day~       
-CSS is a style sheet language that is use to style the look and format of a document written in markup language. We could also use CSS to create a lot of different shapes. In order to create shapes using CSS, you would need to create a div element in HTML. A div element is essentially a rectangle/square. There are two types of div element that you can create; a "div id" or a "div class". The important thing to note about the differences between a "div id" and a "div class" is that the id selector takes precedence over class selector. There is a good discussion thread in <a href="http://stackoverflow.com/questions/544010/css-div-id-vs-div-class" title="css-div-id-vs-div-class" target="_blank">stack overflow</a> that discuss about the differences between using "div id" vs "div class". 
+## Having fun with CSS Shapes       
+CSS is a style sheet language that is used to style the look and format of a document written in markup language. We could also use CSS to create a lot of different shapes. In order to create shapes using CSS, you would need to create a div element in HTML. A div element is essentially a rectangle/square. There are two types of div element that you can create; a "div id" or a "div class". The important thing to note about the differences between a "div id" and a "div class" is that the id selector takes precedence over class selector. There is a good discussion thread in <a href="http://stackoverflow.com/questions/544010/css-div-id-vs-div-class" title="css-div-id-vs-div-class" target="_blank">stack overflow</a> that discuss about the differences between using "div id" vs "div class". 
 The example below shows how to create a circle with CSS.
 
 {% highlight html linenos %}

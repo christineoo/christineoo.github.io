@@ -34,8 +34,8 @@ bing_verify:
 # Links to include in top navigation
 # For external links add external: true
 links:
-  - title: Theme Setup
-    url: /theme-setup
+  #- title: Theme Setup
+  #  url: /theme-setup
   #- title: asdf 
   #  url: http://google.com
   #  external:false 
