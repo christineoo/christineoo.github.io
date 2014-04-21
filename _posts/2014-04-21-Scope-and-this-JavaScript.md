@@ -31,7 +31,7 @@ function myScope()
       console.log('myVar value overwrite from myScope function: ' + myVar); // prints overwrite global 
     }
     myInnerScope();
-    console.log(myLocalVar); // undefined because it is declared under myScope function 
+    console.log(myLocalVar); // prints local variable 
     console.log(myInnerLocalVar); // undefined because myInnerLocalVar only can be accessed in myInnerScope
 }
 
