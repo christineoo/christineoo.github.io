@@ -15,7 +15,7 @@ Form Validations
 Today we'll talk about form validations in AngularJS. AngularJS provides one of the coolest feature of form validations at the client-side. This type of validation would allow instant feedback on the state of the form as users are filling up the form. Some of the common form validations that are always handy are such as:
 
 * Required field
-* Minimun and maximum allowed length
+* Minimum and maximum allowed length
 * Valid email
 * Show error message to let user know what is the requirement needed
 * Disable submit button when there are any errors detected
@@ -95,7 +95,7 @@ Below is an example of AngularJS form validations:
 
 * [Example form validation](http://plnkr.co/edit/ipYf2T1cvMgxmAEYwJg8?p=preview)
 
-In this exmple, bootstrap formatting style are used to style the form. The form requirements implemented in this example form are such as:
+In this example, bootstrap formatting style are used to style the form. The form requirements implemented in this example form are such as:
 
 * Name field:
   * is a required field
