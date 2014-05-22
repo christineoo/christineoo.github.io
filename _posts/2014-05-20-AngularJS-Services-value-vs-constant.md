@@ -46,7 +46,7 @@ angular.module("root", ["services"])
 {% endhighlight %}
 
 
-Lastly, is the `index.html` that will print the `message` defined by the `value` in  `service.js`
+Lastly, is the `index.html` that will print the `message` defined by the `value` in  `service.js`. This `index.html` will be used throughout this blog post.
 {% highlight html linenos %}
 {% raw %}
 <!-- index.html -->
@@ -122,4 +122,4 @@ Let's do some experiment and try to ***uncomment line 3*** and ***comment line 4
 
 You will not see the `Hello world from constant!` output anymore. If you take a look at your console you will see an [error message](https://docs.angularjs.org/error/$injector/modulerr?p0=root&p1=Error:%20%5B$injector:unpr%5D%20http:%2F%2Ferrors.angularjs.org%2F1.2.5%2F$injector%2Funpr%3Fp0%3Dmessage%0A%20%20%20%20at%20Error%20(nat)). This is because `value` service does not exits yet when the `config()` executes.
 
-I'll discuss about the remaining three services ( factory, service and provider) in my next post. Stay tuned!
+I'll discuss about the remaining three services ( factory, service and provider) in my [next post](http://christineoo.github.io/AngularJS-Services-factory-service-provider/). Stay tuned!
