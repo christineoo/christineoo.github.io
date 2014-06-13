@@ -104,7 +104,7 @@ In a new Terminal window, run your configuration file.
 $ protractor chromeOnlyConf.js
 {% endhighlight %} 
 
-You are all set. Hope you enjoy testing you AngularJS application!
+You are all set. Hope you enjoy testing your AngularJS application!
 
 #References
 
