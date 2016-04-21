@@ -10,7 +10,7 @@ comments: true
 share: true
 ---
 
-#Setting Up Ember CLI with CoffeeScript
+# Setting Up Ember CLI with CoffeeScript
 
 [Ember CLI](http://www.ember-cli.com/) is a powerful command line utility for Ember.js. By default, Ember CLI generates JavaScript files for your ember application. However, you can enable CoffeeScript easily.
 
