@@ -10,7 +10,7 @@ comments: true
 share: true
 ---
 
-###1. Arrow function/Fat Arrow function - shorthand using `=>` syntax.
+1. Arrow function/Fat Arrow function - shorthand using `=>` syntax.
 
 {% highlight javascript linenos %}
 //*************** Before ES6 *********************//
@@ -86,7 +86,7 @@ var  customer = {
 customer.greet(); // "Hello, Jane Doe"
 {% endhighlight %}
 
-###2. Template Strings
+2. Template Strings
 
 {% highlight javascript linenos %}
 //*************** Before ES6 *********************//
@@ -125,7 +125,7 @@ var weatherNote = `The weather
 console.log(weatherNote);
 {% endhighlight %}
  
-###3. let -  allows block scoping to be created.
+3. let -  allows block scoping to be created.
 
 {% highlight javascript linenos %}
 //*************** Before ES6 *********************//
@@ -144,7 +144,7 @@ if (x) {
 console.log(x); // 100
 {% endhighlight %}
 
-###4. const - assign constant variables that should not be re-assign
+4. const - assign constant variables that should not be re-assign
 {% highlight javascript linenos %}
 //*************** Before ES6 *********************//
 var API_BASE_URL = "www.asdf.com";
@@ -159,7 +159,7 @@ console.log(API_BASE_URL); // Will trigger an error saying attempting to overrid
 
 
 
-###4. Spread Operator - the 3 dots `...`
+5. Spread Operator - the 3 dots `...`
 {% highlight javascript linenos %}
 //*************** Before ES6 *********************//
 var fruits = ["strawberry", "orange", "apple"];
@@ -179,7 +179,7 @@ console.log(allFruits);
 {% endhighlight %}
 
 
-###5. Default function parameters
+6. Default function parameters
 {% highlight javascript linenos %}
 //*************** Before ES6 ****************************************//
 var multiplication = function(x, y){
@@ -198,7 +198,7 @@ console.log(multiplication()); // 0
 console.log(multiplication(1, 2)); // 2
 {% endhighlight %}
 
-###6. Repeat
+7. Repeat
 {% highlight javascript linenos %}
 //*************** In ES6(.repeat()) ***************//
 var cat = "meow".repeat(5);
@@ -208,7 +208,8 @@ console.log(cat); // "meowmeowmeow"
 
 Below are some references that you can take a look to learn more about ES6.
 
-###References:
+References:
+
 1. [Egghead](https://egghead.io/series/learn-es6-ecmascript-2015)
 2. [lukehoban/es6features](https://github.com/lukehoban/es6features)
 3. [Top 10 ES6 Features Every Busy JavaScript Developer Must Know](http://webapplog.com/es6/)
