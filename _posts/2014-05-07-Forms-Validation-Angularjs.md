@@ -22,50 +22,50 @@ Today we'll talk about form validations in AngularJS. AngularJS provides one of 
 
 AngularJS allow us to implement form validations without a lot of extra work. Form validations are implemented using html5 tags or AngularJS directives. Developers can also create their own custom validations in AngularJS. Let's take a look at some examples below:-
 
-###Required
+### Required
 To set an input field as a required input, a html5 `required` tag can be used.
 {% highlight html %}
 <input type="text" required>
 {% endhighlight %}
 
-###Matching a predefined regex pattern
+### Matching a predefined regex pattern
 AngularJS has a `ng-pattern="/eg-pattern/"` directive to ensure that the input matches with the predefined (regex)regular expression pattern.
 {% highlight html %}
 <input type="text" ng-pattern="/^[a-zA-Z]+$/">
 {% endhighlight %}
 
-###Minimum Length - ng-minlength
+### Minimum Length - ng-minlength
 To set the minimum length requirement, we use `ng-minlength={number}`. The example below sets the minimum required length to be 3 characters.
 {% highlight html %}
 <input type="text" ng-minlength=3>
 {% endhighlight %}
 
-###Maximum length - ng-maxlength
+### Maximum length - ng-maxlength
 On the other hand, to set the maximum length requirement, we use `ng-maxlength={number}`. The example below sets the maximum required length to be 10 characters.
 {% highlight html %}
 <input type="text" ng-maxlength=10>
 {% endhighlight %}
 
-###Number
+### Number
 To limit the user to only input numbers, we can set the `input type` to `number`.
 {% highlight html %}
 <input type="number" name="age" ng-model="user.age">
 {% endhighlight %}
 
-###Email
+### Email
 An email can also be validated in the input field by setting the `input type` to `email`.
 {% highlight html %}
 <input type="email" name="email" ng-model="user.email">
 {% endhighlight %}
 
-###Url 
+### Url
 Url validation lets us validate if the input field represents a url. We do this by setting the `input type` to `url`.
 {% highlight html %}
 <input type="url" name="homeurl" ng-model="user.twitter_url">
 {% endhighlight %}
 
 
-##AngularJS Form Properties - `$valid, $invalid, $dirty, $pristine`
+## AngularJS Form Properties - `$valid, $invalid, $dirty, $pristine`
 
 Below are some of the AngularJS form properties that are useful in helping us to validate the form. Various information can be obtained from the properties when they are applied to a form or input.
 

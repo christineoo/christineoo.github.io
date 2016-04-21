@@ -14,7 +14,7 @@ Services
 
 In my [previous blog post](http://christineoo.github.io/AngularJS-Services-value-vs-constant/), I talked about the differences between value and constant services. This blog post will continue to discuss the factory, service and provider services in AngularJS. 
 
-##`factory`
+## `factory`
 `factory` is an AngularJS service that allows you to inject a function. The syntax for declaring `factory` service is as below:
 {% highlight javascript linenos %}
 {% raw %}
@@ -47,7 +47,7 @@ angular.module("root", ["services"])
 {% endhighlight %}
 If you would like to try this code on your browser, you can use the `index.html` from my previous [blogpost](http://christineoo.github.io/AngularJS-Services-value-vs-constant/).
 
-##`service`
+## `service`
 `service` is pretty much like `factory` whereby you can inject function using service. The difference is that in `service`, constructor function is injected and variables and methods are created with `this` keyword. An example of how a `service` is created is as below:
 {% highlight javascript linenos %}
 {% raw %}
@@ -84,7 +84,7 @@ angular.module("root", ["services"])
 {% endraw %}
 {% endhighlight %}
 
-##`provider`
+## `provider`
 Another useful AngularJS services is `provider`. It uses the `$get` method which is available in AngularJS. `provider` is a function that must return an object containing the `$get` property. 
 Let's take a look at an example on how to use `provider` to print our "Hello world from Provider!" message.
 {% highlight javascript linenos %}

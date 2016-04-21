@@ -22,7 +22,7 @@ In AngularJS, there are five different service types.
 
 Each type of services has its own unique characteristics that makes it useful for handling a certain type of problems. This blog post will talk about value and constant services.
 
-##`value`
+## `value`
 
 `value` is the simplest of all services. A value service literally provides predefined value to the object.
 Below is the `service.js`. Here we defined a value called `message` that contains the string `"Hello world from value!"`
@@ -68,7 +68,7 @@ Lastly, is the `index.html` that will print the `message` defined by the `value`
 {% endraw %}
 {% endhighlight %}
 
-##`constant`
+## `constant`
 Declaring `constant` is very similar to how you would declare a `value`. Below is an example of how `constant` is declared; referencing from the above example:
 {% highlight javascript linenos %}
 {% raw %}
